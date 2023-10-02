@@ -1,7 +1,58 @@
 /* reset*/
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
 /*reset*/
+/*debug*/
+.login {
+    background-color: #add8e6;
+}
+
+.login-box {
+    background-color: #daa520;
+    border:1px dashed black;
+}
+
+header {
+    background: #00008b;
+}
+/*debug*/
+/*header*/
+
+.navbox {
+    display: flex;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+.login-box {
+    margin: 20px 0 20px 0;
+    width: 200px;
+    display: flex;
+    padding: 10px;
+}
+
+#linkbox {
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#login-button {
+    justify-content: flex-end;
+}
+
+.intestazione{
+    width: 900px;
+    height: 300px;
+    background-color: #ee82ee;
+    border:1px dashed;
+    margin: 20px auto 0;
+}
+header{
+    padding-bottom: 20px;
+}
+/*header*/
