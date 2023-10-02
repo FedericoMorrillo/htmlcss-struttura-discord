@@ -37,11 +37,39 @@
     border: 1px dashed black;
 }
 
-main :nth-child(4) > .contenitore{
+main :nth-child(4)>.contenitore {
     background-color: #228b22;
     border: 1px dashed black;
     height: 548px;
 }
+
+footer>.contenitore {
+    background-color: yellow;
+    border: 1px dashed black;
+}
+
+.large {
+    border: 1px dashed black;
+    background-color: #f08080;
+    height: 100%;
+}
+
+.small {
+    border: 1px dashed white;
+    background-color: #20b2aa;
+    height: 100%;
+}
+
+.sezione-footer {
+    background: #7fffd4;
+    border: 1px dashed white;
+}
+
+.sezione-footer>.box {
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+}
+
 /*debug*/
 
 /*header*/
@@ -108,9 +136,41 @@ main :nth-child(2) {
     background-color: #d3d3d3;
 }
 
-main :nth-child(4){
+main :nth-child(4) {
     background-color: #d3d3d3;
     padding: 20px 0;
 }
 
 /*main*/
+
+/*footer*/
+
+.footer {
+    background-color: #23272a;
+    padding: 5px 0 0 0;
+}
+
+.info {
+
+    padding: 0;
+}
+
+.large {
+    width: 60%;
+}
+
+.small {
+    width: 40%;
+}
+
+footer>.contenitore {
+    padding: 0px;
+}
+
+.sezione-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 10px auto 0;
+    padding: 15px 0 15px 0;
+}
